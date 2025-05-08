@@ -1,7 +1,6 @@
 <template>
 	<div class="max-w-screen-2xl mx-auto px-4">
 		<Navbar />
-
 		<section
 			class="flex flex-col items-center justify-center min-h-[80vh] text-center bg-gray-100 rounded-xl shadow-md">
 			<h1 class="text-5xl font-bold mb-6 text-blue-600">
