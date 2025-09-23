@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html.dark body {
+	background-color: #1a202c; /* Tailwind gray-900 */
+	color: #f7fafc; /* Tailwind gray-100 */
+}
+
+html.dark a {
+	color: #63b3ed; /* Tailwind blue-400 */
+}
+
+html.dark a:hover {
+	color: #4299e1; /* Tailwind blue-500 */
+}

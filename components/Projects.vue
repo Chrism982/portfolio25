@@ -1,25 +1,26 @@
 <template>
 	<section
 		id="projects"
-		class="relative py-20 bg-gray-50 flex flex-col items-center">
-		<h2 class="text-3xl font-bold mb-12 text-gray-900">My Projects</h2>
+		class="relative py-20 bg-gray-50 dark:bg-gray-900 flex flex-col items-center">
+		<h2 class="text-3xl font-bold mb-12 text-gray-900 dark:text-white">
+			My Projects
+		</h2>
 
-	
 		<div
 			class="grid gap-8 max-w-6xl w-full px-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 			<div
 				v-for="project in baseProjects"
 				:key="project.id"
-				class="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-1 duration-300 flex flex-col overflow-hidden border border-gray-100">
+				class="bg-white dark:bg-gray-800 rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-1 duration-300 flex flex-col overflow-hidden border border-gray-100 dark:border-gray-700">
 				<img
 					:src="project.image"
 					:alt="project.title"
 					class="h-48 w-full object-cover" />
 				<div class="p-6 flex flex-col flex-grow">
-					<h3 class="text-xl font-bold text-gray-900 mb-2">
+					<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
 						{{ project.title }}
 					</h3>
-					<p class="text-gray-600 text-sm flex-grow">
+					<p class="text-gray-600 dark:text-gray-300 text-sm flex-grow">
 						{{ project.description }}
 					</p>
 					<div class="flex gap-2 mt-6">
@@ -40,7 +41,6 @@
 			</div>
 		</div>
 
-	
 		<TransitionGroup
 			name="fade-slide"
 			tag="div"
@@ -48,16 +48,16 @@
 			<div
 				v-for="project in extraProjectsToShow"
 				:key="project.id"
-				class="bg-white rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-1 duration-300 flex flex-col overflow-hidden border border-gray-100">
+				class="bg-white dark:bg-gray-800 rounded-2xl shadow-md hover:shadow-xl transition hover:-translate-y-1 duration-300 flex flex-col overflow-hidden border border-gray-100 dark:border-gray-700">
 				<img
 					:src="project.image"
 					:alt="project.title"
 					class="h-48 w-full object-cover" />
 				<div class="p-6 flex flex-col flex-grow">
-					<h3 class="text-xl font-bold text-gray-900 mb-2">
+					<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
 						{{ project.title }}
 					</h3>
-					<p class="text-gray-600 text-sm flex-grow">
+					<p class="text-gray-600 dark:text-gray-300 text-sm flex-grow">
 						{{ project.description }}
 					</p>
 					<div class="flex gap-2 mt-6">
@@ -77,7 +77,6 @@
 				</div>
 			</div>
 		</TransitionGroup>
-
 
 		<div v-if="extraProjects.length" class="mt-12">
 			<button

@@ -1,16 +1,22 @@
 <template>
-	<section id="about" class="py-24">
-		<h2 class="text-3xl font-bold mb-10 text-center text-gray-900">About Me</h2>
+	<section id="about" class="py-24 bg-white dark:bg-gray-900">
+		<h2
+			class="text-3xl font-bold mb-10 text-center text-gray-900 dark:text-white">
+			About Me
+		</h2>
 
 		<div
 			class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 px-8">
-			<div class="flex-1 text-gray-700 text-lg leading-relaxed">
+			<div
+				class="flex-1 text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
 				<p class="mb-6">
 					Hi, I'm
-					<span class="font-semibold text-blue-600">Krzysztof Młot</span> — a
-					front-end developer based in Poland 🇵🇱. I'm passionate about building
-					clean and responsive web interfaces using Vue.js, Nuxt.js and Tailwind
-					CSS.
+					<span class="font-semibold text-blue-600 dark:text-blue-400"
+						>Krzysztof Młot</span
+					>
+					— a front-end developer based in Poland 🇵🇱. I'm passionate about
+					building clean and responsive web interfaces using Vue.js, Nuxt.js and
+					Tailwind CSS.
 				</p>
 				<p class="mb-6">
 					After a few years in e-commerce, I switched to web development and

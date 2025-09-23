@@ -1,21 +1,23 @@
 <template>
-	<section class="w-full bg-white py-10">
+	<section id="home" class="w-full bg-white dark:bg-gray-900 py-10">
 		<div
 			class="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between min-h-[calc(100vh-80px)]">
 			<!-- TEXT SECTION -->
 			<div class="text-center md:text-left max-w-xl">
-				<h1 class="text-4xl sm:text-5xl font-bold mb-4 text-gray-900">
+				<h1
+					class="text-4xl sm:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
 					Front-End Vue Developer
 				</h1>
-				<p class="text-lg sm:text-xl text-gray-700 mb-6">
+				<p class="text-lg sm:text-xl text-gray-700 dark:text-gray-300 mb-6">
 					Hi, I'm
-					<span class="font-semibold text-blue-600">Krzysztof Młot</span>. A
-					passionate Front-end Vue Developer based in Wroclaw, Poland. 📍
+					<span class="font-semibold text-blue-600 dark:text-blue-400"
+						>Krzysztof Młot</span
+					>. A passionate Front-end Vue Developer based in Wroclaw, Poland. 📍
 				</p>
 
 				<!-- SOCIAL LINKS -->
 				<div
-					class="flex justify-center md:justify-start gap-6 text-2xl text-gray-600 mb-6">
+					class="flex justify-center md:justify-start gap-6 text-2xl text-gray-600 dark:text-gray-400 mb-6">
 					<a
 						href="https://github.com/yourusername"
 						target="_blank"
@@ -42,41 +44,41 @@
 				<!-- TECH STACK -->
 				<div class="flex items-center flex-wrap gap-4 mt-10">
 					<p
-						class="text-lg sm:text-xl font-semibold text-gray-800 whitespace-nowrap">
+						class="text-lg sm:text-xl font-semibold text-gray-800 dark:text-gray-200 whitespace-nowrap">
 						Tech stack |
 					</p>
 					<Icon
 						icon="logos:vue"
 						title="Vue.js"
-						class="text-2xl sm:text-3xl text-blue-500" />
+						class="text-2xl sm:text-3xl text-blue-500 dark:text-blue-400" />
 					<Icon
 						icon="logos:nuxt-icon"
 						title="Nuxt.js"
-						class="text-2xl sm:text-3xl text-blue-500" />
+						class="text-2xl sm:text-3xl text-blue-500 dark:text-blue-400" />
 					<Icon
 						icon="logos:javascript"
 						title="JavaScript"
-						class="text-2xl sm:text-3xl text-blue-500" />
+						class="text-2xl sm:text-3xl text-blue-500 dark:text-blue-400" />
 					<Icon
 						icon="simple-icons:tailwindcss"
 						title="Tailwind CSS"
-						class="text-2xl sm:text-3xl text-blue-500" />
+						class="text-2xl sm:text-3xl text-blue-500 dark:text-blue-400" />
 					<Icon
 						icon="logos:nodejs-icon"
 						title="Node.js"
-						class="text-2xl sm:text-3xl text-blue-500" />
+						class="text-2xl sm:text-3xl text-blue-500 dark:text-blue-400" />
 					<Icon
 						icon="logos:mongodb-icon"
 						title="MongoDB"
-						class="text-2xl sm:text-3xl text-blue-500" />
+						class="text-2xl sm:text-3xl text-blue-500 dark:text-blue-400" />
 					<Icon
 						icon="logos:html-5"
 						title="HTML5"
-						class="text-2xl sm:text-3xl text-blue-500" />
+						class="text-2xl sm:text-3xl text-blue-500 dark:text-blue-400" />
 					<Icon
 						icon="logos:css-3"
 						title="CSS3"
-						class="text-2xl sm:text-3xl text-blue-500" />
+						class="text-2xl sm:text-3xl text-blue-500 dark:text-blue-400" />
 				</div>
 			</div>
 
