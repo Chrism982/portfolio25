@@ -26,19 +26,14 @@
       </div>
 
       <div class="flex justify-center items-center gap-10">
-        <a href="#" target="_blank" class="relative group p-2" aria-label="GitHub">
+        <a href="https://github.com/Chrism982" target="_blank" class="relative group p-2" aria-label="GitHub">
           <Icon icon="mdi:github" class="relative z-10 text-3xl text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white transition-all transform group-hover:scale-110" />
           <div class="absolute inset-0 bg-gray-400/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
         </a>
 
-        <a href="#" target="_blank" class="relative group p-2" aria-label="LinkedIn">
+        <a href="https://pl.linkedin.com/in/krzysztof-mlot" target="_blank" class="relative group p-2" aria-label="LinkedIn">
           <Icon icon="mdi:linkedin" class="relative z-10 text-3xl text-gray-400 group-hover:text-[#0077b5] transition-all transform group-hover:scale-110" />
           <div class="absolute inset-0 bg-[#0077b5]/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
-        </a>
-
-        <a href="#" target="_blank" class="relative group p-2" aria-label="Discord">
-          <Icon icon="ic:baseline-discord" class="relative z-10 text-3xl text-gray-400 group-hover:text-[#5865F2] transition-all transform group-hover:scale-110" />
-          <div class="absolute inset-0 bg-[#5865F2]/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
         </a>
       </div>
     </div>

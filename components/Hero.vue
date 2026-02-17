@@ -30,14 +30,11 @@
         </div>
 
         <div class="flex justify-center md:justify-start gap-6 text-3xl text-gray-500 dark:text-gray-400">
-          <a href="https://github.com/yourusername" target="_blank" class="hover:text-black dark:hover:text-white transition-colors" title="GitHub">
+          <a href="https://github.com/Chrism982" target="_blank" class="hover:text-black dark:hover:text-white transition-colors" title="GitHub">
             <Icon icon="mdi:github" />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" class="hover:text-[#0077b5] transition-colors" title="LinkedIn">
+          <a href="https://pl.linkedin.com/in/krzysztof-mlot" target="_blank" class="hover:text-[#0077b5] transition-colors" title="LinkedIn">
             <Icon icon="mdi:linkedin" />
-          </a>
-          <a href="https://discordapp.com/users/yourid" target="_blank" class="hover:text-[#5865F2] transition-colors" title="Discord">
-            <Icon icon="ic:baseline-discord" />
           </a>
         </div>
 
